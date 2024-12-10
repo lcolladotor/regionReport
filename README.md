@@ -22,7 +22,7 @@ commit](https://bioconductor.org/shields/lastcommit/devel/bioc/regionReport.svg)
 [![Bioc
 dependencies](https://bioconductor.org/shields/dependencies/release/regionReport.svg)](https://bioconductor.org/packages/release/bioc/html/regionReport.html#since)
 [![R build
-status](https://github.com/leekgroup/regionReport/workflows/R-CMD-check-bioc/badge.svg)](https://github.com/leekgroup/regionReport/actions)
+status](https://github.com/leekgroup/regionReport/actions/workflows/check-bioc.yml/badge.svg)](https://github.com/leekgroup/regionReport/actions/workflows/check-bioc.yml)
 [![GitHub
 issues](https://img.shields.io/github/issues/leekgroup/regionReport)](https://github.com/leekgroup/regionReport/issues)
 [![GitHub
