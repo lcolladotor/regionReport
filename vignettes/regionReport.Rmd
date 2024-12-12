@@ -70,17 +70,17 @@ library("RefManageR")
 bib <- c(
     derfinder = citation("derfinder")[1],
     regionReport = citation("regionReport")[1],
-    knitrBootstrap = citation("knitrBootstrap"),
-    BiocStyle = citation("BiocStyle"),
-    ggbio = citation("ggbio"),
-    ggplot2 = citation("ggplot2"),
+    knitrBootstrap = citation("knitrBootstrap")[1],
+    BiocStyle = citation("BiocStyle")[1],
+    ggbio = citation("ggbio")[1],
+    ggplot2 = citation("ggplot2")[1],
     knitr = citation("knitr")[3],
     RefManageR = citation("RefManageR")[1],
     rmarkdown = citation("rmarkdown")[1],
-    DT = citation("DT"),
+    DT = citation("DT")[1],
     R = citation(),
-    IRanges = citation("IRanges"),
-    sessioninfo = citation("sessioninfo"),
+    IRanges = citation("IRanges")[1],
+    sessioninfo = citation("sessioninfo")[1],
     GenomeInfoDb = RefManageR::BibEntry(
         bibtype = "manual",
         key = "GenomeInfoDb",
@@ -88,18 +88,18 @@ bib <- c(
         title = "GenomeInfoDb: Utilities for manipulating chromosome and other 'seqname' identifiers",
         year = 2017, doi = "10.18129/B9.bioc.GenomeInfoDb"
     ),
-    GenomicRanges = citation("GenomicRanges"),
-    biovizBase = citation("biovizBase"),
-    TxDb.Hsapiens.UCSC.hg19.knownGene = citation("TxDb.Hsapiens.UCSC.hg19.knownGene"),
+    GenomicRanges = citation("GenomicRanges")[1],
+    biovizBase = citation("biovizBase")[1],
+    TxDb.Hsapiens.UCSC.hg19.knownGene = citation("TxDb.Hsapiens.UCSC.hg19.knownGene")[1],
     derfinderPlot = citation("derfinderPlot")[1],
-    grid = citation("grid"),
-    gridExtra = citation("gridExtra"),
+    grid = citation("grid")[1],
+    gridExtra = citation("gridExtra")[1],
     mgcv = citation("mgcv")[1],
-    RColorBrewer = citation("RColorBrewer"),
-    whisker = citation("whisker"),
+    RColorBrewer = citation("RColorBrewer")[1],
+    whisker = citation("whisker")[1],
     bumphunter = citation("bumphunter")[1],
-    pheatmap = citation("pheatmap"),
-    DESeq2 = citation("DESeq2"),
+    pheatmap = citation("pheatmap")[1],
+    DESeq2 = citation("DESeq2")[1],
     edgeR1 = citation("edgeR")[1],
     edgeR2 = citation("edgeR")[2],
     edgeR6 = RefManageR::BibEntry("inbook",
@@ -111,7 +111,7 @@ bib <- c(
         editor = "Datta, Somnath and Nettleton, Dan", publisher = "Springer",
         location = "New York", pages = "51-74"
     ),
-    DEFormats = citation("DEFormats")
+    DEFormats = citation("DEFormats")[1]
 )
 ```
 
