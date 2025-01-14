@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2024-12-12" />
+<meta name="date" content="2025-01-14" />
 
 <title>edgeRexploration.knit</title>
 
@@ -4423,7 +4423,7 @@ function toggle_visibility(id1) {
 </div>
 <div id="introduction" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Introduction</h1>
-<p>This report is meant to help explore edgeR (Chen, Chen, Lun, Baldoni, and Smyth, 2024; Chen, Lun, and Smyth, 2016; Chen, Lun, and Smyth, 2014) results and was generated using the <code>regionReport</code> (Collado-Torres, Jaffe, and Leek, 2016) package. While the report is rich, it is meant to just start the exploration of the results and exemplify some of the code used to do so. If you need a more in-depth analysis for your specific data set you might want to use the <code>customCode</code> argument. This report is based on the vignette of the <code>DESeq2</code> (Love, Huber, and Anders, 2014) package which you can find <a href="http://www.bioconductor.org/packages/DESeq2">here</a>.</p>
+<p>This report is meant to help explore edgeR (Chen, Chen, Lun, Baldoni, and Smyth, 2024; Chen, Lun, and Smyth, 2016) results and was generated using the <code>regionReport</code> (Collado-Torres, Jaffe, and Leek, 2016) package. While the report is rich, it is meant to just start the exploration of the results and exemplify some of the code used to do so. If you need a more in-depth analysis for your specific data set you might want to use the <code>customCode</code> argument. This report is based on the vignette of the <code>DESeq2</code> (Love, Huber, and Anders, 2014) package which you can find <a href="http://www.bioconductor.org/packages/DESeq2">here</a>.</p>
 <div id="code-setup" class="section level2" number="2.1">
 <h2><span class="header-section-number">2.1</span> Code setup</h2>
 <p>This section contains the code for setting up the rest of the report.</p>
@@ -4805,13 +4805,13 @@ plotMDS(dge)</code></pre>
 </div>
 <div id="reproducibility" class="section level1" number="11">
 <h1><span class="header-section-number">11</span> Reproducibility</h1>
-<p>The input for this report was generated with edgeR (Chen, Chen, Lun et al., 2024; Chen, Lun, and Smyth, 2016; Chen, Lun, and Smyth, 2014) and the resulting features were called significantly differentially expressed if their BH adjusted p-values were less than <code>alpha</code> = 0.1. This report was generated in path /__w/regionReport/regionReport/docs/reference using the following call to edgeReport():</p>
+<p>The input for this report was generated with edgeR (Chen, Chen, Lun et al., 2024; Chen, Lun, and Smyth, 2016) and the resulting features were called significantly differentially expressed if their BH adjusted p-values were less than <code>alpha</code> = 0.1. This report was generated in path /__w/regionReport/regionReport/docs/reference using the following call to edgeReport():</p>
 <pre><code>## edgeReport(dge = dge, object = lrt, project = &quot;edgeR-example&quot;, 
 ##     intgroup = &quot;group&quot;, outdir = &quot;edgeReport-example&quot;)</code></pre>
 <p>Date the report was generated.</p>
-<pre><code>## [1] &quot;2024-12-12 21:48:07 UTC&quot;</code></pre>
+<pre><code>## [1] &quot;2025-01-14 16:27:57 UTC&quot;</code></pre>
 <p>Wallclock time spent generating the report.</p>
-<pre><code>## Time difference of 8.102 secs</code></pre>
+<pre><code>## Time difference of 8.064 secs</code></pre>
 <p><code>R</code> session information.</p>
 <pre><code>## [1m[36m─ Session info ───────────────────────────────────────────────────────────────────────────────────────────────────────[39m[22m
 ##  [3m[90msetting [39m[23m [3m[90mvalue[39m[23m
@@ -4823,8 +4823,8 @@ plotMDS(dge)</code></pre>
 ##  collate  C
 ##  ctype    en_US.UTF-8
 ##  tz       UTC
-##  date     2024-12-12
-##  pandoc   3.5 @ /usr/bin/ (via rmarkdown)
+##  date     2025-01-14
+##  pandoc   3.6 @ /usr/bin/ (via rmarkdown)
 ## 
 ## [1m[36m─ Packages ───────────────────────────────────────────────────────────────────────────────────────────────────────────[39m[22m
 ##  [3m[90mpackage                          [39m[23m [3m[90m*[39m[23m [3m[90mversion  [39m[23m [3m[90mdate (UTC)[39m[23m [3m[90mlib[39m[23m [3m[90msource[39m[23m
@@ -4843,13 +4843,13 @@ plotMDS(dge)</code></pre>
 ##  BiocParallel                      * 1.40.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  BiocStyle                         * 2.34.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  biomaRt                             2.62.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
-##  Biostrings                          2.74.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
+##  Biostrings                          2.74.1    [90m2024-12-16[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  biovizBase                        * 1.54.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  bit                                 4.5.0.1   [90m2024-12-03[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  bit64                               4.5.2     [90m2024-09-22[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  bitops                              1.0-9     [90m2024-10-03[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  blob                                1.2.4     [90m2023-03-17[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  bookdown                            0.41      [90m2024-10-16[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  bookdown                            0.42      [90m2025-01-07[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  BSgenome                            1.74.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  bslib                               0.8.0     [90m2024-07-29[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  bumphunter                          1.48.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
@@ -4861,7 +4861,7 @@ plotMDS(dge)</code></pre>
 ##  colorspace                          2.1-1     [90m2024-07-26[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  crayon                              1.5.3     [90m2024-06-20[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  crosstalk                           1.2.1     [90m2023-11-23[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  curl                                6.0.1     [90m2024-11-14[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  curl                                6.1.0     [90m2025-01-06[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  data.table                          1.16.4    [90m2024-12-06[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  DBI                                 1.2.3     [90m2024-06-02[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  dbplyr                              2.5.0     [90m2024-03-19[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
@@ -4876,27 +4876,27 @@ plotMDS(dge)</code></pre>
 ##  DEXSeq                            * 1.52.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  dichromat                           2.0-0.1   [90m2022-05-02[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  digest                              0.6.37    [90m2024-08-19[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  doRNG                               1.8.6     [90m2023-01-16[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  doRNG                               1.8.6.1   [90m2025-01-13[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  downlit                             0.4.4     [90m2024-06-10[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  dplyr                               1.1.4     [90m2023-11-17[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  DT                                * 0.33      [90m2024-04-04[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  edgeR                             * 4.4.1     [90m2024-12-02[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  ellipsis                            0.3.2     [90m2021-04-29[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  ensembldb                           2.30.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
-##  evaluate                            1.0.1     [90m2024-10-10[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  evaluate                            1.0.3     [90m2025-01-10[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  fansi                               1.0.6     [90m2023-12-08[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  farver                              2.1.2     [90m2024-05-13[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  fastmap                             1.2.0     [90m2024-05-15[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  filelock                            1.0.3     [90m2023-12-11[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  foreach                             1.5.2     [90m2022-02-02[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  foreign                             0.8-87    [90m2024-06-26[39m [90m[3][39m [90mCRAN (R 4.4.2)[39m
+##  foreign                             0.8-88    [90m2025-01-12[39m [90m[3][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  Formula                             1.2-5     [90m2023-02-24[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  fs                                  1.6.5     [90m2024-10-30[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  genefilter                          1.88.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  geneplotter                         1.84.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  generics                            0.1.3     [90m2022-07-05[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  GenomeInfoDb                      * 1.42.1    [90m2024-11-28[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
-##  GenomeInfoDbData                    1.2.13    [90m2024-12-10[39m [90m[1][39m [90mBioconductor[39m
+##  GenomeInfoDbData                    1.2.13    [90m2025-01-14[39m [90m[1][39m [90mBioconductor[39m
 ##  GenomicAlignments                   1.42.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  GenomicFeatures                   * 1.58.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  GenomicFiles                        1.42.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
@@ -4904,12 +4904,12 @@ plotMDS(dge)</code></pre>
 ##  GGally                              2.2.1     [90m2024-02-14[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  ggbio                             * 1.54.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  ggplot2                           * 3.5.1     [90m2024-04-23[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  ggstats                             0.7.0     [90m2024-09-22[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  ggstats                             0.8.0     [90m2025-01-07[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  glue                                1.8.0     [90m2024-09-30[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  graph                               1.84.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
+##  graph                               1.84.1    [90m2025-01-02[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  gridExtra                         * 2.3       [90m2017-09-09[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  gtable                              0.3.6     [90m2024-10-25[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  Hmisc                               5.2-1     [90m2024-12-02[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  Hmisc                               5.2-2     [90m2025-01-10[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  hms                                 1.1.3     [90m2023-03-21[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  htmlTable                           2.4.3     [90m2024-07-21[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  htmltools                           0.5.8.1   [90m2024-04-04[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
@@ -4930,25 +4930,25 @@ plotMDS(dge)</code></pre>
 ##  lattice                             0.22-6    [90m2024-03-20[39m [90m[3][39m [90mCRAN (R 4.4.2)[39m
 ##  lazyeval                            0.2.2     [90m2019-03-15[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  lifecycle                           1.0.4     [90m2023-11-07[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  limma                             * 3.62.1    [90m2024-11-03[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
+##  limma                             * 3.62.2    [90m2025-01-09[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  locfit                              1.5-9.10  [90m2024-06-24[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  lubridate                           1.9.4     [90m2024-12-08[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  magrittr                            2.0.3     [90m2022-03-30[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  markdown                            1.13      [90m2024-06-04[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  Matrix                              1.7-1     [90m2024-10-18[39m [90m[3][39m [90mCRAN (R 4.4.2)[39m
-##  MatrixGenerics                    * 1.18.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
-##  matrixStats                       * 1.4.1     [90m2024-09-08[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  MatrixGenerics                    * 1.18.1    [90m2025-01-09[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
+##  matrixStats                       * 1.5.0     [90m2025-01-07[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  memoise                             2.0.1     [90m2021-11-26[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  mgcv                              * 1.9-1     [90m2023-12-21[39m [90m[3][39m [90mCRAN (R 4.4.2)[39m
 ##  mime                                0.12      [90m2021-09-28[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  miniUI                              0.1.1.1   [90m2018-05-18[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  munsell                             0.5.1     [90m2024-04-01[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  nlme                              * 3.1-166   [90m2024-08-14[39m [90m[3][39m [90mCRAN (R 4.4.2)[39m
-##  nnet                                7.3-19    [90m2023-05-03[39m [90m[3][39m [90mCRAN (R 4.4.2)[39m
+##  nnet                                7.3-20    [90m2025-01-01[39m [90m[3][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  OrganismDbi                         1.48.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  pasilla                           * 1.34.0    [90m2024-11-05[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  pheatmap                          * 1.0.12    [90m2019-01-04[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  pillar                              1.9.0     [90m2023-03-22[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  pillar                              1.10.1    [90m2025-01-07[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  pkgbuild                            1.4.5     [90m2024-10-28[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  pkgconfig                           2.0.3     [90m2019-09-22[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  pkgdown                             2.1.1     [90m2024-09-17[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
@@ -4967,10 +4967,10 @@ plotMDS(dge)</code></pre>
 ##  rappdirs                            0.3.3     [90m2021-01-31[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  RBGL                                1.82.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  RColorBrewer                      * 1.1-3     [90m2022-04-03[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  Rcpp                                1.0.13-1  [90m2024-11-02[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  Rcpp                                1.0.14    [90m2025-01-12[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  RCurl                               1.98-1.16 [90m2024-07-11[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  RefManageR                          1.4.0     [90m2022-09-30[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  regionReport                      * 1.41.0    [90m2024-12-12[39m [90m[1][39m [90mBioconductor[39m
+##  regionReport                      * 1.41.1    [90m2025-01-14[39m [90m[1][39m [90mBioconductor[39m
 ##  remotes                             2.5.0     [90m2024-03-17[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  reshape2                            1.4.4     [90m2020-04-09[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  restfulr                            0.0.15    [90m2022-06-16[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
@@ -4978,7 +4978,7 @@ plotMDS(dge)</code></pre>
 ##  rlang                               1.1.4     [90m2024-06-04[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  rmarkdown                           2.29      [90m2024-11-04[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  rngtools                            1.5.2     [90m2021-09-20[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  rpart                               4.1.23    [90m2023-12-05[39m [90m[3][39m [90mCRAN (R 4.4.2)[39m
+##  rpart                               4.1.24    [90m2025-01-07[39m [90m[3][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  Rsamtools                           2.22.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  RSQLite                             2.3.9     [90m2024-12-03[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  rstudioapi                          0.17.1    [90m2024-10-22[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
@@ -4988,13 +4988,13 @@ plotMDS(dge)</code></pre>
 ##  sass                                0.4.9     [90m2024-03-15[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  scales                              1.3.0     [90m2023-11-28[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  sessioninfo                       * 1.2.2     [90m2021-12-06[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  shiny                               1.9.1     [90m2024-08-01[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  shiny                               1.10.0    [90m2024-12-14[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  SparseArray                         1.6.0     [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  statmod                             1.5.0     [90m2023-01-06[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  stringi                             1.8.4     [90m2024-05-06[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  stringr                             1.5.1     [90m2023-11-14[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  SummarizedExperiment              * 1.36.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
-##  survival                            3.7-0     [90m2024-06-05[39m [90m[3][39m [90mCRAN (R 4.4.2)[39m
+##  survival                            3.8-3     [90m2024-12-17[39m [90m[3][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  systemfonts                         1.1.0     [90m2024-05-15[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  textshaping                         0.4.1     [90m2024-12-06[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  tibble                              3.2.1     [90m2023-03-20[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
@@ -5006,13 +5006,12 @@ plotMDS(dge)</code></pre>
 ##  UCSC.utils                          1.2.0     [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  urlchecker                          1.0.1     [90m2021-11-30[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  usethis                             3.1.0     [90m2024-11-26[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  utf8                                1.2.4     [90m2023-10-22[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  VariantAnnotation                   1.52.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
 ##  vctrs                               0.6.5     [90m2023-12-01[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  whisker                             0.4.1     [90m2022-12-05[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  withr                               3.0.2     [90m2024-10-28[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  xfun                                0.49      [90m2024-10-31[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
-##  XML                                 3.99-0.17 [90m2024-06-25[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  xfun                                0.50      [90m2025-01-07[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
+##  XML                                 3.99-0.18 [90m2025-01-01[39m [90m[1][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  xml2                                1.3.6     [90m2023-12-04[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  xtable                              1.8-4     [90m2019-04-21[39m [90m[2][39m [1m[35mRSPM (R 4.4.0)[39m[22m
 ##  XVector                             0.46.0    [90m2024-10-29[39m [90m[1][39m [90mBioconductor 3.20 (R 4.4.2)[39m
@@ -5024,7 +5023,7 @@ plotMDS(dge)</code></pre>
 ## [90m [3] /usr/local/lib/R/library[39m
 ## 
 ## [1m[36m──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m[22m</code></pre>
-<p>Pandoc version used: 3.5.</p>
+<p>Pandoc version used: 3.6.</p>
 </div>
 <div id="bibliography" class="section level1" number="12">
 <h1><span class="header-section-number">12</span> Bibliography</h1>
@@ -5046,23 +5045,14 @@ In: <em>bioRxiv</em> (2024).
 DOI: <a href="https://doi.org/10.1101/2024.01.21.576131">10.1101/2024.01.21.576131</a>.</cite>
 </p>
 <p>
-<a id="bib-edgeR6"></a><a href="#cite-edgeR6">[3]</a><cite>
-Y. Chen, A. T. L. Lun, and G. K. Smyth.
-“Differential expression analysis of complex RNA-seq experiments using edgeR”.
-In:
-<em>Statistical Analysis of Next Generation Sequencing Data</em>.
-Ed. by S. Datta and D. Nettleton.
-New York: Springer, 2014, pp. 51-74.</cite>
-</p>
-<p>
-<a id="bib-chen2016from"></a><a href="#cite-chen2016from">[4]</a><cite>
+<a id="bib-chen2016from"></a><a href="#cite-chen2016from">[3]</a><cite>
 Y. Chen, A. T. L. Lun, and G. K. Smyth.
 “From reads to genes to pathways: differential expression analysis of RNA-Seq experiments using Rsubread and the edgeR quasi-likelihood pipeline”.
 In: <em>F1000Research</em> 5 (2016), p. 1438.
 DOI: <a href="https://doi.org/10.12688/f1000research.8987.2">10.12688/f1000research.8987.2</a>.</cite>
 </p>
 <p>
-<a id="bib-colladotorres2016regionreport"></a><a href="#cite-colladotorres2016regionreport">[5]</a><cite>
+<a id="bib-colladotorres2016regionreport"></a><a href="#cite-colladotorres2016regionreport">[4]</a><cite>
 L. Collado-Torres, A. E. Jaffe, and J. T. Leek.
 “regionReport: Interactive reports for region-level and feature-level genomic analyses [version2; referees: 2 approved, 1 approved with reservations]”.
 In: <em>F1000Research</em> 4 (2016), p. 105.
@@ -5070,28 +5060,28 @@ DOI: <a href="https://doi.org/10.12688/f1000research.6379.2">10.12688/f1000resea
 URL: <a href="http://f1000research.com/articles/4-105/v2">http://f1000research.com/articles/4-105/v2</a>.</cite>
 </p>
 <p>
-<a id="bib-kolde2019pheatmap"></a><a href="#cite-kolde2019pheatmap">[6]</a><cite>
+<a id="bib-kolde2019pheatmap"></a><a href="#cite-kolde2019pheatmap">[5]</a><cite>
 R. Kolde.
 <em>pheatmap: Pretty Heatmaps</em>.
 R package version 1.0.12.
 2019.</cite>
 </p>
 <p>
-<a id="bib-love2014moderated"></a><a href="#cite-love2014moderated">[7]</a><cite>
+<a id="bib-love2014moderated"></a><a href="#cite-love2014moderated">[6]</a><cite>
 M. I. Love, W. Huber, and S. Anders.
 “Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2”.
 In: <em>Genome Biology</em> 15 (12 2014), p. 550.
 DOI: <a href="https://doi.org/10.1186/s13059-014-0550-8">10.1186/s13059-014-0550-8</a>.</cite>
 </p>
 <p>
-<a id="bib-mclean2017refmanager"></a><a href="#cite-mclean2017refmanager">[8]</a><cite>
+<a id="bib-mclean2017refmanager"></a><a href="#cite-mclean2017refmanager">[7]</a><cite>
 M. W. McLean.
 “RefManageR: Import and Manage BibTeX and BibLaTeX References in R”.
 In: <em>The Journal of Open Source Software</em> (2017).
 DOI: <a href="https://doi.org/10.21105/joss.00338">10.21105/joss.00338</a>.</cite>
 </p>
 <p>
-<a id="bib-wickham2016ggplot2"></a><a href="#cite-wickham2016ggplot2">[9]</a><cite>
+<a id="bib-wickham2016ggplot2"></a><a href="#cite-wickham2016ggplot2">[8]</a><cite>
 H. Wickham.
 <em>ggplot2: Elegant Graphics for Data Analysis</em>.
 Springer-Verlag New York, 2016.
@@ -5099,7 +5089,7 @@ ISBN: 978-3-319-24277-4.
 URL: <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>.</cite>
 </p>
 <p>
-<a id="bib-xie2014knitr"></a><a href="#cite-xie2014knitr">[10]</a><cite>
+<a id="bib-xie2014knitr"></a><a href="#cite-xie2014knitr">[9]</a><cite>
 Y. Xie.
 “knitr: A Comprehensive Tool for Reproducible Research in R”.
 In:
@@ -5109,7 +5099,7 @@ ISBN 978-1466561595.
 Chapman and Hall/CRC, 2014.</cite>
 </p>
 <p>
-<a id="bib-xie2024wrapper"></a><a href="#cite-xie2024wrapper">[11]</a><cite>
+<a id="bib-xie2024wrapper"></a><a href="#cite-xie2024wrapper">[10]</a><cite>
 Y. Xie, J. Cheng, and X. Tan.
 <em>DT: A Wrapper of the JavaScript Library ‘DataTables’</em>.
 R package version 0.33.
